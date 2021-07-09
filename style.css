@@ -85,7 +85,7 @@ h3.section-title-netfix {
     line-height: 24px;
   }
   
-  .netflix-badge {
+  .prime-badge {
     position: absolute;
     top: 0;
     left: 0.25rem;
@@ -94,7 +94,7 @@ h3.section-title-netfix {
   
   
   
-  /* LINKS */
+  /* LINKS 
   .link {
   padding: 50px;
   }
@@ -123,4 +123,4 @@ h3.section-title-netfix {
   
   .logo {
   color: var(--dark);
-  }
+  }*/
