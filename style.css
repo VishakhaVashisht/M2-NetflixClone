@@ -92,7 +92,16 @@ h3.section-title-netfix {
   }
   
   
-  
+  footer{
+      padding: 15px 113px;
+  }
+  .sub-links {
+    
+    padding: 0;
+    margin-top: 12px;
+}
+.sub-links ul {list-style: none;}
+ 
   
   /* LINKS 
   .link {
