@@ -7,7 +7,15 @@ body, html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.netflix-nav-dark {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+  background: black;
+  z-index: 1;
+  opacity: 1.5;
+}
 .navbar-dark .nav-item .nav-link {
   padding: 0;
   margin: 8px;
@@ -98,7 +106,7 @@ h3.section-title-netfix {
   
   
   footer{
-      padding: 15px 113px;
+      padding: 46px 113px 15px;
   }
   .sub-links {
     margin-top: 12px;
@@ -110,34 +118,14 @@ h3.section-title-netfix {
   color: #808080;
 }
  
-  
-  /* LINKS 
-  .link {
-  padding: 50px;
+  /*Footer Settings*/
+  .logos i.fab{
+    color:#808080;
+    margin-right: 9px;
+    font-size: 1.813rem;
   }
-  
-  .sub-links ul {
-  list-style: none;
-  padding: 0;
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
+  .copyright{
+    color:#808080;
   }
-  
-  .sub-links a {
-  color: var(--dark);
-  text-decoration: none;
-  }
-  
-  .sub-links a:hover {
-  color: var(--dark);
-  text-decoration: underline;
-  }
-  
-  .logos a{
-  padding: 10px;
-  }
-  
-  .logo {
-  color: var(--dark);
-  }*/
+
+  .copyright p{padding-top: 13px;}
